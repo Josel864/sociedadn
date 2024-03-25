@@ -4,10 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <title>Los Viejos Soldados</title>
     <style>
+        
         body {
             background-color: antiquewhite;
+            font-family: 'Amita';
+            font-size: 22px;
         }
 
         h1 {
@@ -15,9 +21,9 @@
         }
 
         .texto {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Annie Use Your Telescope', Tahoma, Geneva, Verdana, sans-serif;
             font-size: x-large;
-            border: 20px;
+            border: 22px;
         }
 
         .menu {
@@ -33,12 +39,12 @@
         }
 
         .texto2 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Atma', Tahoma, Geneva, Verdana, sans-serif;
             font-size: large;
         }
 
         .texto3 {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Amita', Tahoma, Geneva, Verdana, sans-serif;
             font-size: xx-large;
             text-align: center;
         }
@@ -48,11 +54,23 @@
             margin-left: auto;
             margin-right: auto;
         }
+
         nav ul {
             list-style-type: none;
         }
+
         nav li {
             display: inline;
+        }
+        div.scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        }
+
+        div.scroll-container img {
+        padding: 10px;
         }
     </style>
 </head>
@@ -124,6 +142,15 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </section>
+        <h2>Galeria de imagenes</h2>
+        <div class="scroll-container">
+            <img src="img trailer1.jpg" alt="i1" width="600" height="400">
+            <img src="img trailer3.jpg" alt="i2" width="600" height="400">
+            <img src="img trailer4.jpg" alt="i3" width="600" height="400">
+            <img src="img trailer5.jpg" alt="i4" width="600" height="400">
+            <img src="img trailer6.jpg" alt="i6" width="600" height="400">
+            <img src="img trailer7.jpg" alt="i7" width="600" height="400">
+          </div>
     </main>
     <footer>
         <p class="texto">Derechos Reservados</p>
